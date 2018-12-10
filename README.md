@@ -9,13 +9,17 @@ To get started, clone the project and install the dependencies:
 npm install
 
 # Using Yarn
-yarn
+yarn install
 ```
 
 After that, start up Webpack Development Server:
 
 ```
+# Using npm
 npm run dev
+
+# Using Yarn
+yarn dev
 ```
 
 Webpack Development Server will watch `/src/styles.css` and `/tailwind.js` and rebuild your stylesheet on every change.
@@ -25,7 +29,11 @@ You can play around with `/index.html` to see the effects of your changes.
 To build a production bundle run:
 
 ```
-npm run prod
+# Using npm
+npm run build
+
+# Using Yarn
+yarn build
 ```
 
 After that you will have a ready to deploy bundle at `/dist`
